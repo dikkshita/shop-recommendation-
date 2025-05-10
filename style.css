@@ -1,0 +1,121 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    color: white;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+}
+
+/* Map Styling */
+#map {
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #6e8efb;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #4e6fd3;
+}
+
+.btn-success {
+    background-color: #28a745;
+}
+
+.btn-success:hover {
+    background-color: #1e7d32;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    color: #212529;
+}
+
+.btn-warning:hover {
+    background-color: #e0a800;
+}
+
+/* Form Elements */
+.form-select, .form-control {
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Recommendation List */
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.list-group-item:hover {
+    transform: scale(1.02);
+    background-color: #f1f1f1;
+}
+
+/* Trip Plan Table */
+.table {
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+.table thead {
+    background-color: #6e8efb;
+    color: white;
+}
+
+.table tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+/* Advanced Features Section */
+.row.mt-4 h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #6e8efb;
+}
+
+/* Dark Mode (Optional, Can Be Activated via JavaScript) */
+.dark-mode {
+    background-color: #181818;
+    color: white;
+}
+
+.dark-mode .list-group-item {
+    background-color: #222;
+    color: white;
+}
+
+.dark-mode .table {
+    background-color: #222;
+    color: white;
+}
+
+.dark-mode .btn-primary {
+    background-color: #4e6fd3;
+}
